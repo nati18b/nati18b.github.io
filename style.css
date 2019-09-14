@@ -1,0 +1,49 @@
+
+        h1 {
+            font-family: 'Open Sans', sans-serif;
+
+            background-color: rgb(0, 255, 255);
+            color: red;
+            font-size: 30px
+        }
+        /*unordered list */
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+            /*floating list items*/
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            padding: 8px;
+            background-color: #dddddd;
+        }
+        h2 {
+            font-family: 'Roboto', sans-serif;
+             color: blue; 
+           font-size: 20px"
+           He is my lovely son  
+              }     
+.site {width: 960px;}
+ ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            padding: 8px;
+            background-color: #fdfffe;
+        }
+       .site {width: 960px;}

@@ -1,0 +1,59 @@
+<html>
+
+<head>
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            grid-gap: 10px;
+            background-color: #2196F3;
+            padding: 10px;
+        }
+
+        .item1 {
+            grid-row-start: 1;
+            grid-row-end: 3;
+        }
+
+        .item2 {
+            grid-column: 1/4;
+        }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            padding: 8px;
+            background-color: #dddddd;
+        }
+    </style>
+</head>
+
+<body style="width:  960px">
+    <ul>
+        <li><a href="file:///C:/Users/biruk/OneDrive/Documents/GitHub/natib18.githup.io/index.html">Index</a></li>
+        <li><a href="file:///C:/Users/biruk/OneDrive/Documents/GitHub/natib18.githup.io/portfolio.html">Portfolio</a>
+        </li>
+        <li><a href="file:///C:/Users/biruk/OneDrive/Documents/GitHub/natib18.githup.io/contact.html">Contact</a></li>
+    </ul>
+    <div class="grid-container">
+
+        <a href="https://www.w3schools.com/" target="_blank">Link</a>
+
+        <div class="grid-item item2"><img src="Assets/new.jpg" height="500PX" width="1225PX"></div>
+        <div class="grid-item"><img src="Assets/new.jpg" height="150PX" width="400PX"></div>
+        <div class="grid-item"><img src="Assets/new.jpg" height="150PX" width="400PX"></div>
+        <div class="grid-item"><img src="Assets/new.jpg" height="150PX" width="400PX"></div>
+
+    </div>
+</body>
+
+</html>
